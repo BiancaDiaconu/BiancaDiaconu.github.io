@@ -1,0 +1,59 @@
+body{
+    background-color: bisque;
+    margin: 0;
+}
+
+#menu {
+    
+   background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    }
+    
+
+#enlaces{
+    width: 60vw;
+    justify-content: space-around;
+    padding: 1%;
+    display: flex;
+    
+    border: black 1px solid;
+}    
+#enlaces a{
+
+   font-size: x-large;
+    
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+  
+}
+#logo img{
+
+    
+    border: black 1px solid;
+    width: 180px;
+}
+
+#formularioentrada form{
+    
+    
+    display: flex;
+    
+    justify-content: space-between;
+    border: black 1px solid;
+    flex-direction: column;
+
+}
+
+#formularioentrada form div{
+   
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    background-color:beige;
+}
+
