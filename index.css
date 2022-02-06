@@ -1,15 +1,16 @@
 body{
-    background-color: bisque;
+    background-color: wheat;
     margin: 0;
 }
 
 #menu {
     
-   background-color: brown;
+    background-color: brown;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 1%;
+    flex-wrap: wrap;
     }
     
 
@@ -18,42 +19,117 @@ body{
     justify-content: space-around;
     padding: 1%;
     display: flex;
+   
+}   
+
+#enlaces{
     
-    border: black 1px solid;
-}    
+    display: flex;
+    justify-content:space-evenly;
+}
 #enlaces a{
 
-   font-size: x-large;
-    
+    font-size: x-large;
     text-decoration: none;
     color: black;
     margin: 10px;
   
 }
-#logo img{
 
+#logo{
     
-    border: black 1px solid;
     width: 180px;
+    display: flex;
+    justify-content: center;
+
 }
 
 #formularioentrada form{
     
-    
     display: flex;
-    
-    justify-content: space-between;
-    border: black 1px solid;
+    font-size: x-large;
+    justify-content: end;
     flex-direction: column;
 
 }
 
 #formularioentrada form div{
-   
+    
     display: flex;
     justify-content: space-between;
 }
+
 input{
-    background-color:beige;
+    width: 65%;
+    font-size: x-large;
+    background-color:wheat;
+}
+#envio input{
+    width: 100%;
 }
 
+#galeriaDeFotos{
+    margin-bottom: 10%;
+}
+.imagenesweb{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imagenesweb div{
+    
+    max-width: 33.33%;
+    min-width: 450px;
+}
+.imagenesweb img{
+    width: 100%;
+  
+    
+}
+.imagenesweb p{
+    font-size: x-large ;
+    font-weight: bolder;
+    text-align: center;
+    background-color: wheat;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+td img{
+    max-width: 500px;
+    display: block;
+   
+}
+table,th,td{
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    text-align: center;
+    border-collapse: collapse;
+    border:black 1px solid;
+}
+
+thead th{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+tr:nth-child(2n){
+   
+    background-color: rgb(131, 98, 72);
+}
+tr:nth-child(2n+1){
+    
+    background-color: rgb(202, 114, 13);
+}
+td{
+    width: 16.66%;
+}
+table{
+    display: block;
+    overflow-x: auto;
+}
