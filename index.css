@@ -1,11 +1,12 @@
 body{
     background-color: wheat;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 #menu {
     
-    background-color: brown;
+    background-color: rgba(165, 42, 42, 0.466);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,7 +24,7 @@ body{
 }   
 
 #enlaces{
-    
+    font-weight: bolder;
     display: flex;
     justify-content:space-evenly;
 }
@@ -45,7 +46,7 @@ body{
 }
 
 #formularioentrada form{
-    
+    font-weight: bolder;
     display: flex;
     font-size: x-large;
     justify-content: end;
@@ -101,12 +102,14 @@ h2{
 }
 
 
-td img{
-    max-width: 500px;
+ table td img{
+    object-fit: cover;
+    width: 100%;
     display: block;
    
 }
 table,th,td{
+    font-weight: bolder;
     margin: 0;
     padding: 0;
     font-size: xx-large;
@@ -128,10 +131,58 @@ tr:nth-child(2n+1){
     
     background-color: rgb(223, 183, 137);
 }
-td{
+table td,th{
     width: 16.66%;
 }
 table{
     display: block;
     overflow-x: auto;
+}
+
+
+
+
+
+
+
+#moda2022 {
+    display: flex;
+    flex-direction:row-reverse;
+    margin: 10%;
+}
+
+
+.informacion p{
+    padding-right:7%;
+
+}
+article{
+    align-items: flex-start;
+}
+figure {  
+    
+    background-color: rgba(5, 5, 5, 0.438);
+    padding: 1%;
+   
+}
+
+#moda2021{
+    display: flex;
+    flex-direction:row-reverse;
+   
+}
+#moda2020{
+    display: flex;
+    flex-direction:row-reverse;
+    
+}
+#otrasmodas{
+    margin: 10%;
+}
+.informacion img{
+    max-width: 400px;
+    min-width: 400px;
+}
+summary:hover{
+    cursor:pointer;
 }
